@@ -1,0 +1,66 @@
+1. Funciones básicas
+Función	¿Para qué sirve?	Ejemplo
+print()	Mostrar información	print("Hola")
+input()	Pedir datos al usuario	input("Nombre: ")
+type()	Saber el tipo de dato	type(5) → int
+int()	Convertir a entero	int("10") → 10
+float()	Convertir a decimal	float("2.5") → 2.5
+str()	Convertir a texto	str(25) → "25"
+bool()	Convertir a booleano	bool(1) → True
+isinstance()	Comprobar el tipo de un objeto	isinstance(5, int)
+id()	Obtener identificador de un objeto	id(5)
+help()	Consultar ayuda	help(str)
+
+2. Funciones matemáticas
+Estas son bastante habituales en ejercicios.
+Función	¿Para qué sirve?	Ejemplo
+abs()	Valor absoluto	abs(-5) → 5
+round()	Redondear	round(3.567, 2) → 3.57
+pow()	Potencia	pow(2, 3) → 8
+max()	Obtener el mayor	max(2, 8, 4) → 8
+min()	Obtener el menor	min(2, 8, 4) → 2
+sum()	Sumar elementos	sum([1, 2, 3]) → 6
+divmod()	Obtener cociente y resto	divmod(10, 3) → (3, 1)
+
+3. Funciones para listas, tuplas y colecciones
+Muy importantes para el examen
+Función	¿Para qué sirve?	Ejemplo
+len()	Contar elementos	len([1, 2, 3]) → 3
+sorted()	Ordenar una colección	sorted([3, 1, 2]) → [1, 2, 3]
+reversed()	Recorrer al revés	list(reversed([1, 2, 3]))
+enumerate()	Obtener índice y elemento	list(enumerate(["A","B"]))
+zip()	Unir colecciones elemento a elemento	list(zip([1,2],["A","B"]))
+any()	Comprobar si alguno es verdadero	any([False, True]) → True
+all()	Comprobar si todos son verdaderos	all([True, True]) → True
+list()	Crear una lista	list((1, 2))
+tuple()	Crear una tupla	tuple([1, 2])
+set()	Crear un conjunto sin duplicados	set([1, 1, 2])
+dict()	Crear un diccionario	dict(a=1, b=2)
+range()	Generar una secuencia de números	list(range(5))
+
+4. Funciones relacionadas con lambda
+Estas son especialmente importantes teniendo en cuenta lo que estamos estudiando.
+Función	¿Para qué sirve?
+map()	Aplicar una función a todos los elementos
+filter()	Filtrar elementos según una condición
+sorted()	Ordenar usando un criterio con key
+max()	Buscar el máximo usando un criterio con key
+min()	Buscar el mínimo usando un criterio con key
+
+5. Funciones para cadenas de texto
+Función	¿Para qué sirve?
+ord()	Obtener el código Unicode de un carácter
+chr()	Convertir un código Unicode en carácter
+ascii()	Obtener una representación ASCII
+repr()	Obtener la representación oficial de un objeto
+format()	Dar formato a un valor
+
+6. Funciones para trabajar con objetos y diccionarios
+Función	¿Para qué sirve?
+getattr()	Obtener un atributo de un objeto
+setattr()	Modificar un atributo
+hasattr()	Comprobar si existe un atributo
+delattr()	Eliminar un atributo
+callable()	Comprobar si algo se puede ejecutar
+vars()	Obtener los atributos de un objeto
+dir()	Ver los atributos y métodos disponibles
